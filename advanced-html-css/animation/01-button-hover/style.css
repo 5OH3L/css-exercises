@@ -17,3 +17,13 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+/* Edits */
+
+button {
+  will-change: transform;
+  transition: transform 0.25s ease;
+}
+button:hover {
+  transform: scale(1.15);
+}
